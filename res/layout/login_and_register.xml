@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/yhdl"
+            android:layout_width="wrap_content"
+            android:layout_height="30dip"
+            android:background="@drawable/registerbutton"
+            android:text="用户登陆"
+            android:textSize="18px" />
+
+        <Button
+            android:id="@+id/yhzc"
+            android:layout_width="wrap_content"
+            android:layout_height="30dip"
+            android:text="用户注册"
+            android:textSize="18px" 
+            android:background="@drawable/registerbutton"/>
+
+        <Button
+            android:id="@+id/sysdl"
+            android:layout_width="wrap_content"
+            android:layout_height="30dip"
+            android:text="摄影师登陆" 
+             android:textSize="18px"
+             android:background="@drawable/registerbutton"/>
+
+        <Button
+            android:id="@+id/syszc"
+            android:layout_width="wrap_content"
+            android:layout_height="30dip"
+            android:text="摄影师注册"
+             android:textSize="18px" 
+             android:background="@drawable/registerbutton"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="380dp" >
+
+        <ListView
+            android:id="@+id/listView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+        </ListView>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

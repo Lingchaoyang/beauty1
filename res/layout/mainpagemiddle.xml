@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainpagemiddle"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+   <LinearLayout 
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+       <LinearLayout 
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:gravity="top"
+           android:layout_weight="1">
+           <include layout="@layout/mainpagemiddlepicturehorizontalscrolling"/>"
+       </LinearLayout>
+       <LinearLayout 
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:gravity="top"
+           android:layout_weight="3">
+           <include layout="@layout/mainpagemiddlecircleword"/>
+       </LinearLayout>
+       <LinearLayout 
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:gravity="top"
+           android:layout_weight="1">
+           <include layout="@layout/mainpagemiddlepictureverticalscrolling"/>
+       </LinearLayout>
+   </LinearLayout>
+
+</ScrollView>

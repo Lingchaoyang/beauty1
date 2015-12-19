@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:id="@+id/mainpagebottom"
+    android:orientation="horizontal"
+    android:layout_marginBottom="0dp" 
+    >
+    
+    
+     <Button
+         android:id="@+id/zhuyebutton"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="主页" 
+         android:layout_weight="1"
+         android:drawableTop="@drawable/button1"
+         android:background="#FFFFFF"/>
+
+     <Button
+         android:id="@+id/dingdanbutton"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:background="#FFFFFF"
+         android:layout_weight="1"
+         android:drawableTop="@drawable/button2"
+         android:text="订单" />
+
+     <Button
+         android:id="@+id/wodebutton"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:background="#FFFFFF"
+         android:layout_weight="1"
+         android:drawableTop="@drawable/button3"
+         android:text="我的" />
+
+</LinearLayout>

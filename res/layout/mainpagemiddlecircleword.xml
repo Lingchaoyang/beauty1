@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" 
+    android:background="#FFFFFF">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:background="#FFFFFF"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/graduate"
+        android:text="毕业" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:background="#FFFFFF"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/tour"
+        android:text="旅游" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:background="#FFFFFF"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/married"
+        android:text="婚纱" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:background="#FFFFFF"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/personalphoto"
+        android:text="个人写真" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:background="#FFFFFF"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/other"
+        android:text="其他" />
+
+</LinearLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/mima"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/mmedt"
+        android:layout_alignLeft="@+id/yonghuming"
+        android:text="密码：" />
+
+    <EditText
+        android:id="@+id/mmedt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/yhmedt"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/yhmedt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/zhucehuodenglu"
+        android:layout_marginTop="33dp"
+        android:layout_toRightOf="@+id/mima"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/yonghuming"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/yhmedt"
+        android:layout_alignBottom="@+id/yhmedt"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="24dp"
+        android:text="用户名：" />
+
+    <TextView
+        android:id="@+id/zhucehuodenglu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:text="用户注册/登陆" />
+
+    <Button
+        android:id="@+id/zhucebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/dnelgubtn"
+        android:layout_alignBottom="@+id/dnelgubtn"
+        android:layout_toRightOf="@+id/zhucehuodenglu"
+        android:text="注册" />
+
+    <Button
+        android:id="@+id/dnelgubtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mima"
+        android:layout_marginTop="52dp"
+        android:layout_toRightOf="@+id/mima"
+        android:text="登陆" />
+
+</RelativeLayout>
